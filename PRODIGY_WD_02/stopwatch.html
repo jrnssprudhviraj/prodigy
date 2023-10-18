@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stopwatch</title>
+  
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="sw.css"> 
+</head>
+
+<body>
+
+  <h1>Stopwatch</h1>
+  
+  <div id="stopwatch">
+  
+    <div id="time">
+      <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">000</span>
+    </div>
+
+    <div id="controls">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <div id="laps">
+      <button id="lap">Lap</button>
+      <button id="clear">Clear Laps</button>
+      
+      <h2>Laps</h2>
+      
+      <div id="lap-times">
+        <!-- Lap times dynamically added here -->  
+      </div>
+      
+      <div id="lap-table">
+        <table>
+          <tr>
+            <th>Lap</th>
+            <th>Time</th> 
+            <th></th>
+          </tr>
+          <!-- Lap data dynamically added here -->
+        </table>
+      </div>
+      
+    </div>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script src="sw.js"></script>
+
+</body>
+</html>

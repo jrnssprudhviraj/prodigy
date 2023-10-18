@@ -1,0 +1,89 @@
+/* Layout */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #333;
+    color: #fff;
+  }
+  
+  #stopwatch {
+    display: flex; 
+    flex-flow: column;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    background: #444;
+  }
+  
+  /* Typography */
+  
+  h1 {
+    font-size: 42px;
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    margin: 20px 0 10px;
+  }
+  
+  /* Time */
+  
+  #time {
+    font-size: 58px;
+    font-weight: 300;
+    margin-bottom: 20px; 
+  }
+  
+  /* Buttons */
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #007bff;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Lap Times */
+  
+  #lap-times {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .lap-time {
+    margin: 0 5px 10px;
+    padding: 5px 10px;
+    background: #007bff;
+    border-radius: 5px;
+  }
+  
+  /* Lap Table */ 
+  
+  #lap-table table {
+    border-collapse: collapse;
+  }
+  
+  #lap-table td, #lap-table th {
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+  }
+  
+  #lap-table tr:nth-child(even) {
+    background: #eee; 
+  }
+  
+  #lap-table tr:hover {
+    background: #ddd;
+  }
